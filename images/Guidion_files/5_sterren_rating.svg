@@ -1,0 +1,73 @@
+<svg width="80" height="17" viewBox="0 0 80 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2501_82435)">
+<path d="M8.11058 12.2868L11.6193 14.4043C11.8772 14.5604 12.1962 14.3296 12.1283 14.0378L11.1985 10.0472L14.2933 7.36646C14.5172 7.16965 14.4018 6.79638 14.0964 6.76923L10.0176 6.42311L8.42276 2.66328C8.30739 2.38503 7.91376 2.38503 7.79839 2.66328L6.20351 6.42311L2.12471 6.76923C1.8261 6.79638 1.70394 7.16965 1.93468 7.36646L5.02942 10.0472L4.09964 14.0378C4.03177 14.3296 4.35075 14.5604 4.60864 14.4043L8.11058 12.2868Z" fill="#FC5446"/>
+</g>
+<g clip-path="url(#clip1_2501_82435)">
+<path d="M24.1106 12.2868L27.6193 14.4043C27.8772 14.5604 28.1962 14.3296 28.1283 14.0378L27.1985 10.0472L30.2933 7.36646C30.5172 7.16965 30.4018 6.79638 30.0964 6.76923L26.0176 6.42311L24.4228 2.66328C24.3074 2.38503 23.9138 2.38503 23.7984 2.66328L22.2035 6.42311L18.1247 6.76923C17.8261 6.79638 17.7039 7.16965 17.9347 7.36646L21.0294 10.0472L20.0996 14.0378C20.0318 14.3296 20.3507 14.5604 20.6086 14.4043L24.1106 12.2868Z" fill="#FC5446"/>
+</g>
+<g clip-path="url(#clip2_2501_82435)">
+<path d="M40.1106 12.2868L43.6193 14.4043C43.8772 14.5604 44.1962 14.3296 44.1283 14.0378L43.1985 10.0472L46.2933 7.36646C46.5172 7.16965 46.4018 6.79638 46.0964 6.76923L42.0176 6.42311L40.4228 2.66328C40.3074 2.38503 39.9138 2.38503 39.7984 2.66328L38.2035 6.42311L34.1247 6.76923C33.8261 6.79638 33.7039 7.16965 33.9347 7.36646L37.0294 10.0472L36.0996 14.0378C36.0318 14.3296 36.3507 14.5604 36.6086 14.4043L40.1106 12.2868Z" fill="#FC5446"/>
+</g>
+<g clip-path="url(#clip3_2501_82435)">
+<path d="M56.1106 12.2868L59.6193 14.4043C59.8772 14.5604 60.1962 14.3296 60.1283 14.0378L59.1985 10.0472L62.2933 7.36646C62.5172 7.16965 62.4018 6.79638 62.0964 6.76923L58.0176 6.42311L56.4228 2.66328C56.3074 2.38503 55.9138 2.38503 55.7984 2.66328L54.2035 6.42311L50.1247 6.76923C49.8261 6.79638 49.7039 7.16965 49.9347 7.36646L53.0294 10.0472L52.0996 14.0378C52.0318 14.3296 52.3507 14.5604 52.6086 14.4043L56.1106 12.2868Z" fill="#FC5446"/>
+</g>
+<g clip-path="url(#clip4_2501_82435)">
+<path opacity="0.2" d="M72.1106 12.2868L75.6193 14.4043C75.8772 14.5604 76.1962 14.3296 76.1283 14.0378L75.1985 10.0472L78.2933 7.36646C78.5172 7.16965 78.4018 6.79638 78.0964 6.76923L74.0176 6.42311L72.4228 2.66328C72.3074 2.38503 71.9138 2.38503 71.7984 2.66328L70.2035 6.42311L66.1247 6.76923C65.8261 6.79638 65.7039 7.16965 65.9347 7.36646L69.0294 10.0472L68.0996 14.0378C68.0318 14.3296 68.3507 14.5604 68.6086 14.4043L72.1106 12.2868Z" fill="#FC5446"/>
+<path d="M72.1106 2.46043V12.287L68.6086 14.4045C68.3507 14.5606 68.0318 14.3298 68.0996 14.038L69.0294 10.0474L65.9347 7.36667C65.7039 7.16986 65.8261 6.79659 66.1247 6.76944L70.2035 6.42332L71.7984 2.66349C71.9138 2.38524 72.1106 2.46043 72.1106 2.46043Z" fill="#FC5446"/>
+</g>
+<defs>
+<clipPath id="clip0_2501_82435">
+<rect width="16" height="16" fill="white" transform="translate(0 0.599609)"/>
+</clipPath>
+<clipPath id="clip1_2501_82435">
+<rect width="16" height="16" fill="white" transform="translate(16 0.599609)"/>
+</clipPath>
+<clipPath id="clip2_2501_82435">
+<rect width="16" height="16" fill="white" transform="translate(32 0.599609)"/>
+</clipPath>
+<clipPath id="clip3_2501_82435">
+<rect width="16" height="16" fill="white" transform="translate(48 0.599609)"/>
+</clipPath>
+<clipPath id="clip4_2501_82435">
+<rect width="16" height="16" fill="white" transform="translate(64 0.599609)"/>
+</clipPath>
+</defs>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</svg>

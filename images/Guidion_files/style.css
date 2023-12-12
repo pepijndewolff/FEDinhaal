@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
+
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+button, summary {
+	cursor: pointer;
+}
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	--color-h1: #fc5446;
+	--color-p: rgba(19,22,26,.6);
+}
+
+/****************/
+/* STYLING */
+/****************/
+
+/* basis styling text */
+body {
+	font-family: 'Poppins', sans-serif;
+	color: var(--color-p);
+	font-weight: 100;
+	font-size: 1em;
+	line-height: 1.5;
+}
+
+body h1 {
+	font-size: 3rem;
+	font-weight: 600;
+}
+
