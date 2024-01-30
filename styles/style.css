@@ -21,6 +21,7 @@ button, summary {
 	--color-darkgrey2: #3b444d;
 	--color-lightgrey2: #808d99;
 	--color-lightgrey3: #9ea8b2;
+	--color-lightcrayola: #ff968c;
 
 }
 
@@ -49,7 +50,10 @@ body {
 	margin: 0;
 } */
 
+body a:hover {
+	color: var(--color-lightcrayola)
 
+}
 
 body h1 {
 	font-size: 3rem;
@@ -272,20 +276,26 @@ main {
   @media screen and (max-width: 768px) {
 	.section-hero ul:first-of-type {
 		flex-direction: column;
+		width: 100%;
 	
   	}
+
+	.section-hero ul:first-of-type li {
+		margin: 1em 0 1em 0;
+		width: 100%;
+		display: flex;
+	}
 	
 	.button-primary {
-		margin-bottom: 5rem;
 		width: 100%;
 	}
 
 	.button-secondary {
-		margin-top: 5rem;
 		width: 100%;
 	}
-}
 
+	
+}
 
 
 /* ********************************* */
@@ -471,8 +481,27 @@ main {
 	border-color: white;
 	
 	padding: 0.5rem;
-	margin: auto;
+	width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
 	/* background-color: lightblue; */
+}
+
+@media screen and (max-width: 992px) {
+	.section-resultaten h2 {
+	  padding: 3rem 0 1rem 0; 
+	  font-size: 2rem; 
+	}
+  
+	.section-resultaten ul {
+	  grid-template-columns: 1fr; 
+	  grid-column-gap: 0; 
+	}
+  
+	.section-resultaten ul li {
+	  margin-bottom: 1.5rem; 
+	}
 }
 
 
@@ -610,7 +639,8 @@ footer nav:nth-of-type(2) ul li:nth-of-type(4) a {
 	text-decoration: underline;
 	font-size: 1em;
 	font-weight: 100;
-	width: 20rem;
+	width: max-content;
+	display: block;
 }
 
 footer nav:nth-of-type(2) a {
@@ -618,3 +648,28 @@ footer nav:nth-of-type(2) a {
 	color: var(--color-crayola);
 	font-size: 0.8em;
 }
+
+
+@media screen and (max-width: 992px) {
+	footer nav {
+	  flex-direction: column; /* Zet de flex-direction naar column voor alle nav elementen */
+	}
+  
+	footer nav:first-of-type {
+	  padding-top: 1rem; /* Pas de padding bovenaan aan voor de eerste nav */
+	}
+  
+	footer nav ul {
+	  max-width: none; /* Verwijder de max-width voor de ul elementen */
+	  width: 100%;
+	}
+  
+	footer nav ul li {
+	  width: 100%; /* Laat de li-elementen de volle breedte innemen */
+	}
+  
+	footer nav:nth-of-type(2) ul li:nth-of-type(4) {
+	  width: auto; /* Laat het 4e li-element in de tweede nav de automatische breedte innemen */
+	}
+  }
+  
