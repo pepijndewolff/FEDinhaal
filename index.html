@@ -14,11 +14,14 @@
 <body>
 
 	<header>
-		<img src="images/Guidion_logo.svg" alt="Guidion Logo">
+		<a href="index.html">
+			<img src="images/Guidion_logo.svg" alt="Guidion Logo">
+		</a>
+		
 		<nav>
 			<ul>
 				<li>
-					<a href="#">Monteur worden</a>
+					<a href="monteur-worden.html">Monteur worden</a>
 				</li>
 				<li>
 					<a href="#">Mijn afspraak</a>
@@ -28,12 +31,33 @@
 				</li>
 			</ul>
 
-			<div>
+			<div class="taal">
 				<a href="#">NL</a>
 				<img src="images/arrow_down_icon.svg" alt="pijl naar beneden">
 			</div>
 
-			<img src="images/hamburger_menu_icon.svg" alt="hamburger menu icon">
+			<div class="hamburger-menu">
+				<input id="menu__toggle" type="checkbox" />
+				<label class="menu__btn" for="menu__toggle">
+				  <span></span>
+				</label>
+			
+				<ul class="menu__box">
+				  		<li><a class="menu__item" href="#">Monteur worden</a></li>
+						  <hr>
+						<li><a class="menu__item" href="#">Partner worden</a></li>
+						<hr>
+						<li><a class="menu__item" href="#">Collega worden</a></li>
+						<hr>
+						<li><a class="menu__item" href="#">Mijn afspraak</a></li>
+						<hr>
+						<li><a class="menu__item" href="#">Over ons</a></li>
+						<hr>
+						<li><a class="menu__item" href="#">Verhalen</a></li>
+						<hr>
+						<li><a class="menu__item" href="#">Hulp & Contact</a></li>
+				</ul>
+			  </div>
 
 		</nav>
 
@@ -42,9 +66,10 @@
 	<main>
 		<!-- Section 1 Wij leveren service capaciteit  -->
 		<section class="section-hero">
+			<h2 class="sr-only">Eerste Sectie - Wij Leveren Service Capaciteit</h2>
 
 			<section>
-				<h1> <span class="sr-only">Hallo, Welkom op de website van Gudion</span> Wij leveren service capaciteit</h1>
+				<h1> <span class="sr-only">Hallo, Welkom op de website van Gudion</span>Wij leveren service capaciteit</h1>
 				<p>Guidion beschikt over een gekwalificeerd monteursnetwerk die uit naam van grote merken werkzaamheden in huis uitvoeren. Van warmte tot wifi. Van rookmelder tot televisie.</p>
 
 				<ul>
@@ -77,6 +102,7 @@
 		
 		<!-- section 2 image carousel -->
 		<section class="slide">
+			<h2 class="sr-only">Tweede sectie voor Image Carousel - Partners Guidion</h2>
 				<img src="images/youfone_logo.webp" alt="youfone logo">
 				<img src="images/vz_logo.svg" alt="vodafone ziggo logo">
 				<img src="images/Solcon_logo.webp" alt="solcon logo">
@@ -97,6 +123,7 @@
 	
 		<!-- section 3 wat ons netwerk doet -->
 		<section class="section-ons-netwerk">
+			<h2 class="sr-only">Derde Sectie - Wat doet het netwerk van Guidon</h2>
 			<img src="images/wat_ons_netwerk_doet.webp" alt="Monteur aan eht werk in huis">
 
 			<section>
@@ -215,5 +242,7 @@
 	</footer>
 
 </body>
+
+<script src="scripts/script.js"></script>
 
 </html>

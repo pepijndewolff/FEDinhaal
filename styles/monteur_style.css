@@ -258,7 +258,7 @@
     justify-content: space-between;
     border-radius: 1rem;
     padding: 2.5rem;
-    width: none;
+    /* width: none; */
     min-width: 1.6rem;
 }
 
