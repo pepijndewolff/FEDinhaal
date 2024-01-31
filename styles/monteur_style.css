@@ -1,0 +1,548 @@
+/* ************************************* */
+/* styling section 1 Werken als monteur */
+/* ************************************ */
+
+.werken-als-monteur {
+    display: flex;
+    height: 90vh;
+    grid-column-gap: 1.5em;
+}
+
+.werken-als-monteur section:first-of-type {
+    background-color: var(--color-lightgrey);
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-end;
+    border-radius: 1rem;
+
+    padding-bottom: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    width: 35%;
+    
+}
+
+.werken-als-monteur img {
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+
+}
+
+.werken-als-monteur section:first-of-type h1 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    display: block;
+    margin: 0;
+}
+
+.werken-als-monteur section:first-of-type h2 {
+    color: var(--color-crayola);
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    max-width: 80%;
+}
+
+.werken-als-monteur section:first-of-type p {
+    margin-top: 0;
+    max-width: 80%;
+}
+
+/* styling review buttons */
+.werken-als-monteur section ul {
+	grid-column-gap: 0.75rem;
+    align-items: center;
+    margin-top: 1rem;
+    display: flex;
+	padding-bottom: 1rem;
+}
+
+.werken-als-monteur section ul a {
+	color: var(--color-crayola);
+}
+
+.werken-als-monteur section ul img {
+	width: 100%;
+}
+
+.werken-als-monteur section:nth-of-type(2) {
+    width: 35%;
+    border-style: solid;
+    border-radius: 1.5rem;
+    border-color: var(--color-lightgrey);
+    padding: 0 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-start;
+
+}
+
+.werken-als-monteur section:nth-of-type(2) h2 {
+    letter-spacing: -.0625rem;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+/* Styling form */
+.werken-als-monteur form {
+    display: flex;
+    flex-direction: column;
+}
+
+.werken-als-monteur form input[type=text], select {
+    min-height: 3rem;
+    border: 0.0625rem solid #ebeff2;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.8125rem;
+    padding-left: 1rem;
+}
+
+@media only screen and (max-width: 992px) {
+    .werken-als-monteur {
+        flex-direction: column;
+        height: auto;
+        grid-row-gap: 1rem;
+    }
+
+    .werken-als-monteur section:first-of-type {
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .werken-als-monteur section:first-of-type h2 {
+        max-width: 100%;
+        font-size: 1.8rem;
+    }
+
+    .werken-als-monteur img {
+        width: 100%;
+        max-height: 25rem;
+
+    }
+
+    .werken-als-monteur section:nth-of-type(2) {
+        width: 100%;
+        border-radius: 1.5rem;
+        padding: 1.5rem;
+    }
+
+    .werken-als-monteur form input[type=text], .werken-als-monteur form select {
+        margin-bottom: 1rem;
+    }
+}
+
+/* ************************************ */
+/* styling section 3 wat wij je bieden */
+/* *********************************** */
+
+.section-bulletlist {
+    display: flex;
+    height: 90vh;
+    grid-column-gap: 1.5rem;
+   
+}
+
+.section-bulletlist section:first-of-type {
+    background-color: var(--color-lightgrey);
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-end;
+    border-radius: 1rem;
+    padding-bottom: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.section-bulletlist section:first-of-type h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    display: block;
+    margin: 0;
+    margin-bottom: 1rem;
+    color: var(--color-crayola);
+}
+
+.section-bulletlist section:first-of-type h3 {
+    color: var(--color-crayola);
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    max-width: 80%;
+}
+
+.section-bulletlist section:first-of-type ul {
+    padding-left: 1rem;
+}
+
+.section-bulletlist section:first-of-type ul li {
+    list-style-type: disc;
+    padding-left: 0.5rem;
+    color: var(--color-darkgrey2);
+}
+
+.section-bulletlist img {
+    width: 50%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+@media only screen and (max-width: 992px) {
+    .section-bulletlist {
+        flex-direction: column;
+        height: auto;
+        grid-row-gap: 1rem;
+    }
+
+    .section-bulletlist section:first-of-type {
+        width: 100%;
+        padding: 2.5rem;
+    }
+
+    .section-bulletlist img {
+        width: 100%;
+        max-height: 60%;
+    }
+}
+
+
+/* ****************************/
+/* styling section 4 branches */
+/* ****************************/
+
+.branches {
+    display: flex;
+    flex-direction: column;
+}
+
+.branches h2 {
+    letter-spacing: -.0625rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.branches ul {
+    display: grid;
+    height: 70vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
+    color: white;
+    margin-bottom:5rem;
+    
+}
+
+.branches ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 1rem;
+    padding: 2.5rem;
+    width: none;
+    min-width: 1.6rem;
+}
+
+.branches ul li:first-of-type {
+    background-color: var(--color-card1);
+}
+
+.branches ul li:nth-of-type(2) {
+    background-color: var(--color-card2);
+}
+
+.branches ul li:nth-of-type(3) {
+    background-color: var(--color-card3);
+}
+
+.branches ul li h3 {
+    letter-spacing: -.0625rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.branches ul li h4 {
+    font-weight: 100;
+	font-size: 1rem;
+	border-width: 1px;
+	border-radius: 5rem;
+	border-style: solid;
+	border-color: white;
+	padding: 0.5rem;
+	width: fit-content;
+}
+
+@media only screen and (max-width: 992px) {
+    .branches ul {
+        grid-template-columns: 1fr; 
+        grid-row-gap: 1rem; 
+        height: auto; 
+    }
+
+    .branches ul li {
+        width: 100%; 
+        padding: 1.5rem;
+    }
+
+}
+
+
+/* ************************************ */
+/* styling section 5 monteur reviews */
+/* *********************************** */
+
+.reviews h2 {
+    letter-spacing: -.0625rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.reviews ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 1.5rem;
+    max-width: 100%;
+    margin-bottom: 6rem;
+}
+
+.reviews ul li {
+    border: 0.0625rem solid #ebeff2;
+    border-radius: 2rem;
+    min-height: 22rem;
+    padding: 2rem;
+    margin: 0;
+    opacity: 60%;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 10px 0.375rem rgba(0,0,0,.09);
+
+    transition: transform .2s;
+}
+.reviews ul li:hover {
+    transform: scale(1.05);
+    opacity: 100%;
+}
+
+.reviews ul li blockquote {
+    margin: 0;
+    font-weight: 600;
+}
+
+.reviews ul li h4 {
+    margin: 0;
+    color: var(--color-crayola);
+}
+
+.reviews ul li p {
+    margin: 0;
+}
+
+.reviews ul div:nth-of-type(2) img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    object-position: 50% 0%;
+    border-radius: 100%;
+    margin: 0;
+}
+
+@media only screen and (max-width: 992px) {
+    .reviews ul {
+        grid-template-columns: 1fr;
+        grid-row-gap: 1rem; 
+    }
+
+    .reviews ul li {
+        width: 100%; 
+        margin-bottom: 1.5rem; 
+        opacity: 100%;
+        min-height: auto;
+    }
+
+    .reviews ul div:first-of-type {
+        text-align: center;
+    }
+
+    .reviews ul div:nth-of-type(2) img {
+        margin-top: 1em;
+    }
+
+    .reviews ul div:nth-of-type(2) {
+        text-align: center;
+    }
+
+    .reviews h2 {
+        margin-top: 3rem;
+        margin-bottom: 1.5rem; 
+    }
+
+    .reviews ul li:hover {
+        transform: scale(1);
+    }
+}
+
+
+/* ************************************ */
+/* styling section 6 certificaten halen */
+/* *********************************** */
+
+.certificaten-halen {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    grid-column-gap: 1.5rem;
+}
+
+.certificaten-halen img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    
+}
+
+.certificaten-halen section {
+    width: 50%;
+    background-color: var(--color-lightgrey);
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-end;
+    border-radius: 1rem;
+
+    padding-bottom: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.certificaten-halen section h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    display: block;
+    margin: 0;
+    color: var(--color-crayola);
+}
+
+.certificaten-halen section h3 {
+    color: var(--color-crayola);
+    font-size: 2.5rem;
+    font-weight: 550;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    max-width: 100%;
+}
+
+/* *************************************** */
+/* styling section 7 Aanmelden als monteur */
+/* *************************************** */
+
+.aanmelden {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    grid-column-gap: 1.5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.aanmelden section:first-of-type {
+    width: 65%;
+    background-color: var(--color-lightgrey);
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-end;
+    border-radius: 1rem;
+
+    padding-bottom: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.aanmelden section:first-of-type ul {
+    padding-left: 1rem;
+}
+
+.aanmelden section:first-of-type li {
+    list-style-type: disc;
+    padding-left: 0.5rem;
+    color: var(--color-darkgrey2);
+
+}
+
+.aanmelden section:first-of-type h2 {
+    color: var(--color-crayola);
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    max-width: 100%;
+
+}
+
+/* styling form */
+
+.aanmelden section:nth-of-type(2) {
+    width: 35%;
+    border-style: solid;
+    border-radius: 1.5rem;
+    border-color: var(--color-lightgrey);
+    padding: 0 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+
+.aanmelden section:nth-of-type(2) h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.aanmelden form {
+    display: flex;
+    flex-direction: column;
+}
+
+.aanmelden form input[type=text], select {
+    min-height: 3rem;
+    border: 0.0625rem solid #ebeff2;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.8125rem;
+    padding-left: 1rem;
+}
+

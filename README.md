@@ -273,8 +273,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://www.w3schools.com/css/css_form.asp
+  2. https://www.w3schools.com/tags/att_input_placeholder.asp
+  3. https://www.sitepoint.com/css-viewport-units-quick-start/#:~:text=vh%20stands%20for%20viewport%20height,100%25%20of%20the%20viewport%20height.
+  4. https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_style_hr
+  5. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+  6. https://www.youtube.com/watch?v=EiNiSFIPIQE&t=134s
+  7. https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit?retiredLocale=nl
+  8. https://www.youtube.com/watch?v=nAjR0Oj0J8E
+  9. https://css-tricks.com/inclusively-hidden/
+  10. https://www.w3schools.com/html/html_favicon.asp
+  11. https://www.w3schools.com/howto/howto_css_zoom_hover.asp
+
 
 </details>

@@ -6,56 +6,75 @@
 	<meta name="author" content="Pepijn de Wolff">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>Guidion</title>
+	<title>Monteur worden</title>
 	
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+	<link rel="stylesheet" href="styles/standard_style.css">
+	<link rel="stylesheet" href="styles/monteur_style.css">
+	<link rel="icon" type="image/x-icon" href="images/63319f18fa4ab13ba5082284_Favicon.png">
 </head>
 
 <body>
 	<header>
 		<img src="images/Guidion_logo.svg" alt="Guidion Logo">
-		<button>NL</button>
 		<nav>
 			<ul>
 				<li>
-					<a href="/monteur-worden">Monteur Worden</a>
+					<a href="#">Monteur worden</a>
 				</li>
 				<li>
-					<a href="/mijn-afspraak">Mijn Afspraak</a>
+					<a href="#">Mijn afspraak</a>
 				</li>
 				<li>
-					<a href="/partner-worden">Partner Worden</a>
+					<a href="#">Partner Worden</a>
 				</li>
 			</ul>
 
+			<div>
+				<a href="#">NL</a>
+				<img src="images/arrow_down_icon.svg" alt="pijl naar beneden">
+			</div>
+
+			<img src="images/hamburger_menu_icon.svg" alt="hamburger menu icon">
+
 		</nav>
+
 	</header>
 
 	<main>
 
-		<!-- sectie met 3 blokken -->
-		<!-- 1 -->
-		<section>
+		<!-- sectie 1 werken als monteur -->
+		<section class="werken-als-monteur">
 
-			<!-- werken als monteur -->
 			<section>
 				<h1>
-					Werken als monteur
+					Word baas over je agenda
 				</h1>
 				<h2>
-					Word baas over je agenda
+					Werken als monteur
 				</h2>
 				<p>
 					Samen halen we meer uit je ondernemerschap. Wij zorgen voor de opdrachten, jij voor het vakmanschap.
 				</p>
+
+				<ul>
+					<li>
+						<img src="images/5_sterren_rating.svg" alt="5 sterren rating">
+					</li>
+					<li>
+						<img src="images/google_review_logo.svg" alt="google review logo">
+					</li>
+					<li>
+						<a href="#">15.453 Google reviews</a>
+					</li>
+				</ul>
+
 			</section>
 
 			<!-- hero image  -->
 			<img src="images/werken_als_monteur1.svg" alt="twee monteurs van Guidon lachend">
 		
 
-			<!-- form aanmelden als monteur -->
+			<!-- form -->
 			<section>
 				<h2>
 					Meld je nu aan als freelance monteur
@@ -64,17 +83,17 @@
 					En wij zorgen voor een goed gevulde agenda.
 				</p>
 				<form action="#">
-					<label for="Voornaam">Voornaam</label>
-					<input type="text" name="Voornaam" id="Voornaam">
-					<label for="Achternaam">Achternaam</label>
-					<input type="text" name="Achternaam" id="Achternaam">
-					<label for="E-mail">E-mail</label>
-					<input type="text" name="E-mail" id="E-mail">
-					<label for="Telefoonnummer">Telefoonnummer</label>
-					<input type="text" name="Telefoonnummer" id="Telefoonnummer">
-					<label for="Woonplaats">Woonplaats</label>
-					<input type="text" name="Woonplaats" id="Woonplaats">
-					<label for="Hoe ben je bij ons terecht gekomen?">Hoe ben je bij ons terecht gekomen?</label>
+					<label for="Voornaam"></label>
+					<input type="text" name="Voornaam" id="Voornaam" placeholder="Naam">
+					<label for="Achternaam"></label>
+					<input type="text" name="Achternaam" id="Achternaam" placeholder="Achternaam">
+					<label for="E-mail"></label>
+					<input type="text" name="E-mail" id="E-mail" placeholder="E-mail">
+					<label for="Telefoonnummer"></label>
+					<input type="text" name="Telefoonnummer" id="Telefoonnummer" placeholder="Telefoonnummer">
+					<label for="Woonplaats"></label>
+					<input type="text" name="Woonplaats" id="Woonplaats" placeholder="Woonplaats">
+					<label for="Hoe ben je bij ons terecht gekomen?"></label>
 					<select id="Hoe ben je bij ons terecht gekomen?">
 						<option label="Hoe ben je bij ons terecht gekomen?">Hoe ben je bij ons terecht gekomen?</option>
 						<option label="Via monteur/familie/vriend/kennis/etc.">Via monteur/familie/vriend/kennis/etc.</option>
@@ -82,41 +101,40 @@
 						<option label="Via Indeed">Via Indeed</option>
 						<option label="Via Social Media">Via Social Media</option>
 					</select>
-					<input type="Submit" value="Monteur Worden">
+					<input class="button-primary" type="Submit" value="Monteur Worden">
 				</form>
 			</section>
 		</section>
 
+		<!-- section 2 image carousel -->
+		<section class="slide">
+			<img src="images/youfone_logo.webp" alt="youfone logo">
+			<img src="images/vz_logo.svg" alt="vodafone ziggo logo">
+			<img src="images/Solcon_logo.webp" alt="solcon logo">
+			<img src="images/odido_logo.svg" alt="odido logo">
+			<img src="images/Energiewacht_logo.webp" alt="energiewacht logo">
+			<img src="images/delta_logo.webp" alt="delta logo">
+			<img src="images/Breman_logo.svg" alt="breman logo">
+			<img src="images/comfort_logo.webp" alt="comfort logo">
+			<img src="images/youfone_logo.webp" alt="youfone logo">
+			<img src="images/vz_logo.svg" alt="vodafone ziggo logo">
+			<img src="images/Solcon_logo.webp" alt="solcon logo">
+			<img src="images/odido_logo.svg" alt="odido logo">
+			<img src="images/Energiewacht_logo.webp" alt="energiewacht logo">
+			<img src="images/delta_logo.webp" alt="delta logo">
+			<img src="images/Breman_logo.svg" alt="breman logo">
+			<img src="images/comfort_logo.webp" alt="comfort logo">
+		</section>	
 
-		<!-- section image carousel met animatie -->
-		<!-- 2 -->
-		<section>
-			<img src="images/631982578861af425596216f_energie.webp" alt="Energie">
-				<img src="images/Breman_logo.svg" alt="Breman">
-				<img src="images/comfort_logo.webp" alt="Comfort">
-				<img src="images/delta_logo.webp" alt="Delta">
-				<img src="images/Energiewacht_logo.webp" alt="Energiewacht">
-				<img src="images/odido_logo.svg" alt="Odido">
-				<img src="images/Solcon_logo.webp" alt="Solcon">
-				<img src="images/vz_logo.svg" alt="Vodafone_Ziggo">
-				<img src="images/youfone_logo.webp" alt="Youfone">
-				<img src="images/Energiewacht_logo.webp" alt=""Energiewacht>
-				<img src="images/Breman_logo.svg" alt="Breman">
-				<img src="images/comfort_logo.webp" alt="Comfort">
-				<img src="images/delta_logo.webp" alt="Delta">
-		</section>
+		<!-- section 3 wat wij je bieden -->
+		<section class="section-bulletlist">
 
-		<!-- section wat wij je bieden -->
-		<!-- 3 -->
-		<section>
-
-			<!-- bulletlist -->
 			<section>
 				<h2>
-					Wat wij je bieden
+					Dé boost voor jouw onderneming
 				</h2>
 				<h3>
-					Dé boost voor jouw onderneming
+					Wat wij je bieden
 				</h3>
 				<ul>
 					<li>Geld! Hoe meer je werkt, hoe meer je verdient</li>
@@ -128,90 +146,125 @@
 				</ul>
 			</section>
 
-			<div>
-				<img src="images/wat_wij_je_bieden.svg" alt="Monteur in actie samen met tevreden klant">
-			</div>
+			<img src="images/wat_wij_je_bieden.svg" alt="Monteur in actie samen met tevreden klant">
+
 		</section>
 
-		<!-- section Slider actief in... -->
-		<!-- 4 -->
-		<section>
+		<!-- section 4 actieve branches -->
+		<section class="branches">
 			<h2>
 				Actief in...
 			</h2>
 
 			<ul>
 				<li>
-					<h3>Telecom</h3>
-					<p>We installeren internet, digitale televisie en telefonie. Daarnaast doen we ook storingswerkzaamheden. We werken met coax-, glasvezel- en DSL-netwerken.</p>
-					<p>Sinds 2006</p>
+					<h4>Sinds 2006</h4>
+					<div>
+						<h3>Telecom</h3>
+						<p>We installeren internet, digitale televisie en telefonie. Daarnaast doen we ook storingswerkzaamheden. We werken met coax-, glasvezel- en DSL-netwerken.</p>
+					</div>
 				</li>
 
 				<li>
-					<h3>Centrale verwarming</h3>
-					<p>We voeren de jaarlijkse onderhoudswerkzaamheden uit aan cv ketels. En we reinigen mechanische ventilatiesystemen.</p>
-					<p>Sinds 2018</p>
+					<h4>Sinds 2018</h4>
+					<div>
+						<h3>Centrale verwarming</h3>
+						<p>We voeren de jaarlijkse onderhoudswerkzaamheden uit aan cv ketels. En we reinigen mechanische ventilatiesystemen.</p>
+					</div>
 				</li>
 
 				<li>
-					<h3>Rookmelders</h3>
-					<p>Sinds juli 2022 is het hebben van een rookmelder op iedere verdieping in huis verplicht. Wij installeren rookmelders en voeren in sommige gevallen ook controles uit.</p>
-					<p>Sinds 2021</p>
+					<h4>Sinds 2021</h4>
+					<div>
+						<h3>Rookmelders</h3>
+						<p>Sinds juli 2022 is het hebben van een rookmelder op iedere verdieping in huis verplicht. Wij installeren rookmelders en voeren in sommige gevallen ook controles uit.</p>
+					</div>
 				</li>
 			</ul>
 		</section>
 
-		<!-- section monteur reviews -->
-		<!-- 5 -->
-		<section>
+		<!-- section 5 monteur reviews -->
+		<section class="reviews">
 			<h2>
 				Wat monteurs over Guidion zeggen
 			</h2>
 
+
+
 			<ul>
 				<li>
-					<h4>
-						Niek (35)
-					</h4>
-					<p>Werkt sinds 2018 met Guidion</p>
-					<blockquote>Guidion zorgt naast flexibiliteit ook voor een stabiele stroom aan inkomsten.</blockquote>
-					<img src="images/quote_icon.svg" alt="icoon van quote">
+					<div>
+						<img src="images/quote_icon.svg" alt="icoon van quote">
+						<blockquote>Guidion zorgt naast flexibiliteit ook voor een stabiele stroom aan inkomsten.</blockquote>
+					</div>
+					<div>
+						<img src="images/Expert_Niek.jpeg" alt="Portret Expert Niek">
+						<h4>Niek (35)</h4>
+						<p>Werkt sinds 2018 met Guidion</p>
+					</div>
+					
 				</li>
 
 				<li>
-					<h4>
-						Jurvain (36)
-					</h4>
-					<p>Werkt sinds 2015 met Guidion</p>
-					<blockquote>Dankzij Guidion ben ik commerciëler gaan denken en is mijn onderneming gegroeid.</blockquote>
-					<img src="images/quote_icon.svg" alt="icoon van quote">
-					<img src="" alt="">
+					<div>
+						<img src="images/quote_icon.svg" alt="icoon van quote">
+						<blockquote>Dankzij Guidion ben ik commerciëler gaan denken en is mijn onderneming gegroeid</blockquote>
+					</div>
+					<div>
+						<img src="images/Expert_Niek.jpeg" alt="Portret Expert Niek">
+						<h4>Jurvain (36)</h4>
+						<p>Werkt sinds 2014 met Guidion</p>
+					</div>
+				</li>
+
+				<li>
+					<div>
+						<img src="images/quote_icon.svg" alt="icoon van quote">
+						<blockquote>Guidion ontzorgt waardoor je als ondernemer meer tijd over hebt voor leuke dingen.</blockquote>
+					</div>
+					<div>
+						<img src="images/Expert_Niek.jpeg" alt="Portret Expert Niek">
+						<h4>Jerry (51)</h4>
+						<p>Werkt sinds 2015 met Guidion</p>
+					</div>
+				</li>
+
+				<li>
+					<div>
+						<img src="images/quote_icon.svg" alt="icoon van quote">
+						<blockquote>Guidion is ontzettend betrokken, de communicatie is goed en er wordt altijd aan ons gedacht.</blockquote>
+					</div>
+					<div>
+						<img src="images/Expert_Niek.jpeg" alt="Portret Expert Niek">
+						<h4>Oemar (47)</h4>
+						<p>Werkt sinds 2015 met Guidion</p>
+					</div>
 				</li>
 			</ul>
 
 		</section>
 
-		<!-- Certificaten halen via Guidion -->
-		<!-- 6 -->
-		<section>
-				<img src="images/certificaten_halen_bij_Guidion.webp" alt="Cursist die aan het nadenken is">
+		<!-- section 6 Certificaten halen via Guidion -->
+		<section class="certificaten-halen">
+				
+			<img src="images/certificaten_halen_bij_Guidion.webp" alt="Cursist die aan het nadenken is">
 
-				<section>
-					<h2>
-						Behaal je certificaten via Guidion
-					</h2>
-					<h3>
-						Geen diploma? Geen probleem.
-					</h3>
-					<p>
-						Via Guidion kun je vakspecifieke diploma’s halen om veilig en wettelijk te mogen starten als cv- of telecom monteur. Nadat jij je hebt aangemeld, kijken we samen welke certificaten je nodig hebt en helpen wij je graag verder. Zo kun jij zo snel mogelijk aan het werk!
-					</p>
-				</section>
+			<section>
+				<h2>
+					Geen diploma? Geen probleem.
+				</h2>
+				<h3>
+					Behaal je certificaten via Guidion
+				</h3>
+				<p>
+					Via Guidion kun je vakspecifieke diploma’s halen om veilig en wettelijk te mogen starten als cv- of telecom monteur. Nadat jij je hebt aangemeld, kijken we samen welke certificaten je nodig hebt en helpen wij je graag verder. Zo kun jij zo snel mogelijk aan het werk!
+				</p>
+			</section>
 		</section>
 
-		<!-- Aanmelden als monteur -->
-		<!-- 7 -->
-		<section>
+		<!-- section 7 Aanmelden als monteur -->
+
+		<section class="aanmelden">
 			<section>
 				<h2>
 					Zin om aan de slag te gaan?
@@ -232,17 +285,17 @@
 				</h2>
 	
 				<form action="#">
-					<label for="Voornaam">Voornaam</label>
-					<input type="text" name="Voornaam" id="Voornaam">
-					<label for="Achternaam">Achternaam</label>
-					<input type="text" name="Achternaam" id="Achternaam">
-					<label for="E-mail">E-mail</label>
-					<input type="text" name="E-mail" id="E-mail">
-					<label for="Telefoonnummer">Telefoonnummer</label>
-					<input type="text" name="Telefoonnummer" id="Telefoonnummer">
-					<label for="Woonplaats">Woonplaats</label>
-					<input type="text" name="Woonplaats" id="Woonplaats">
-					<label for="Hoe ben je bij ons terecht gekomen?">Hoe ben je bij ons terecht gekomen?</label>
+					<label for="Voornaam"></label>
+					<input type="text" name="Voornaam" id="Voornaam" placeholder="Naam">
+					<label for="Achternaam"></label>
+					<input type="text" name="Achternaam" id="Achternaam" placeholder="Achternaam">
+					<label for="E-mail"></label>
+					<input type="text" name="E-mail" id="E-mail" placeholder="E-mail">
+					<label for="Telefoonnummer"></label>
+					<input type="text" name="Telefoonnummer" id="Telefoonnummer" placeholder="Telefoonnummer">
+					<label for="Woonplaats"></label>
+					<input type="text" name="Woonplaats" id="Woonplaats" placeholder="Woonplaats">
+					<label for="Hoe ben je bij ons terecht gekomen?"></label>
 					<select id="Hoe ben je bij ons terecht gekomen?">
 						<option label="Hoe ben je bij ons terecht gekomen?">Hoe ben je bij ons terecht gekomen?</option>
 						<option label="Via monteur/familie/vriend/kennis/etc.">Via monteur/familie/vriend/kennis/etc.</option>
@@ -250,7 +303,7 @@
 						<option label="Via Indeed">Via Indeed</option>
 						<option label="Via Social Media">Via Social Media</option>
 					</select>
-					<input type="Submit" value="Monteur Worden">
+					<input class="button-primary" type="Submit" value="Monteur Worden">
 				</form>
 			</section>
 
@@ -260,8 +313,9 @@
 	</main>
 
 	<footer>
-		<p>Graag gedaan, Guidion</p>
+
 		<nav>
+			<h2>Graag gedaan, Guidion</h2>
 			<ul>
 				<li>
 					<a href="#">Monteur worden</a>
@@ -279,9 +333,7 @@
 					<a href="#">Hulp & Contact</a>
 				</li>
 			</ul>
-		</nav>
 
-		<nav>
 			<ul>
 				<li>
 					<a href="#">Over Ons</a>
@@ -290,30 +342,40 @@
 					<a href="#">Vehalen</a>
 				</li>
 			</ul>
-		</nav>
-		<ul>
-			<p>James Wattstraat 77
-				10e verdieping 1097 DL Amsterdam</p>
-			<a href="#">+31 20 323 2764</a>
-			<a href="#">info@guidion.net</a>
-		</ul>
 
-		<ul>
-			<li>
-				<a href="#"><img src="images/linkedin_button.svg" alt="LinkedIn social icon"></a>
-			</li>
-			<li>
-				<img src="images/google_rating_4.3.svg" alt="Google Rating 4.3 sterren">
-			</li>
-			<li>
-				<img src="images/google_review_logo.svg" alt="Google Review Logo">
-			</li>
-			<li>
-				<a href="#">15.453 Google reviews</a>
-			</li>
-		</ul>
-	
-		<a href="#">Privacy & cookie statement</a>
+			<ul>
+				<li>
+					<p>James Wattstraat 77</p>
+					<p>10e verdieping 1097 DL</p>
+					<p>Amsterdam</p>
+					<a href="#">+31 20 323 2764</a>
+					<a href="#">info@guidion.net</a>
+				</li>
+			</ul>
+
+		</nav>
+
+		<hr>
+
+		<nav>
+			<ul>
+				<li>
+					<a href="#"><img src="images/linkedin_button.svg" alt="LinkedIn social icon"></a>
+				</li>
+				<li>
+					<img src="images/google_rating_4.3.svg" alt="Google Rating 4.3 sterren">
+				</li>
+				<li>
+					<img src="images/google_review_logo.svg" alt="Google Review Logo">
+				</li>
+				<li>
+					<a href="#">15.453 Google reviews</a>
+				</li>
+			</ul>
+
+			<a href="#">Privacy & cookie statement</a>
+
+		</nav>
 
 	</footer>
 
