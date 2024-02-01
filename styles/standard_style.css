@@ -75,13 +75,8 @@ body ul {
 	padding-inline-start: 0;
 }
 
-/* header media query */
-@media screen and (max-width: 992px) {
-	header nav:first-of-type ul li {
-		display: none;
-	}
-}
 
+/* https://codepen.io/frostycode/pen/vYGredV */
 /* hamburger menu */
 
 #menu__toggle {
@@ -431,3 +426,9 @@ footer nav:nth-of-type(2) a {
 	}
   }
   
+  /* header media query */
+@media screen and (max-width: 992px) {
+	header nav:first-of-type ul li {
+		display: none;
+	}
+}
