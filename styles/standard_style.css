@@ -75,6 +75,21 @@ body ul {
 	padding-inline-start: 0;
 }
 
+.taal {
+	border-width: 2px;
+	border-radius: 5rem;
+	border-style: solid;
+	border-color: var(--color-crayola);
+	padding: 0.5rem 1rem 0.5rem 1rem;
+	width: fit-content;
+}
+
+.taal a {
+	color: var(--color-crayola);
+	text-decoration: none;
+	font-weight: 600;
+}
+
 
 /* https://codepen.io/frostycode/pen/vYGredV */
 /* hamburger menu */

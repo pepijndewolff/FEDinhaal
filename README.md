@@ -228,9 +228,20 @@ NVT was ziek
 
 
 
+## bugs 
 
 
 ## Bronnenlijst
+
+<details open> 
+
+Header hamburgermenu is niet meer leesbaar bij media query 992 px. 
+
+Header media query spreek ik aan voor header nav:first-of-type ul li 
+
+Dat betekend dat ik niet het hamburger menu aanspreek, tocht is het hamburger menu niet leesbaar.
+
+</details>
 
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
