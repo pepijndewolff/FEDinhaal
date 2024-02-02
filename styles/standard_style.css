@@ -163,6 +163,8 @@ body ul {
 	padding: 1.5rem;
 	overflow: hidden;
 	font-weight: 300;
+	border-bottom: 1px;
+	border-color: var(--color-crayola);
 
   }
 
